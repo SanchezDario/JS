@@ -1,0 +1,57 @@
+header{ 
+    background-color: aqua; color: black;
+}
+
+h1{
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h2{
+    font: 25px lighter sans-serif;
+}
+
+section, footer{
+    border: 1px solid blue;
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+article{
+    margin: 0%;
+}
+
+.menu li{
+    list-style: none;
+    border: 1px solid blue;
+    padding: 5px;
+    display: inline-block;
+}
+
+section{
+    width: 69%;
+    float: left;
+}
+
+aside{
+    float: left;
+    width: 30%;
+    border: 2px solid red;
+    background-color: cornflowerblue;
+    list-style: none;
+    display: table-row;
+}
+
+footer{
+    clear: both;
+    color: #999
+}
+
+img{
+    width: 40px;
+    margin: 10px;
+}
